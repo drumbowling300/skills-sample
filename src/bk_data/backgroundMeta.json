@@ -1,0 +1,27 @@
+{
+  "study": [
+    {
+      "id": "study_room_01",
+      "src": "/videos/study_room_01.mp4",
+      "duration": 18,
+      "recommendedSpeed": 1,
+      "loopable": true
+    },
+    {
+      "id": "desk_closeup_01",
+      "src": "/videos/desk_closeup_01.mp4",
+      "duration": 12,
+      "recommendedSpeed": 1.1,
+      "loopable": false
+    }
+  ],
+  "nature": [
+    {
+      "id": "forest_sunlight_01",
+      "src": "/videos/forest_sunlight_01.mp4",
+      "duration": 25,
+      "recommendedSpeed": 0.9,
+      "loopable": true
+    }
+  ]
+}

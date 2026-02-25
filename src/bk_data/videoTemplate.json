@@ -1,0 +1,53 @@
+{
+  "duration": 30,
+  "aspectRatio": "9:16",
+  "scenes": [
+    {
+      "name": "フック",
+      "start": 0,
+      "end": 2,
+      "video": "public/videos/hook.mp4",
+      "speed": 1.4,
+      "subtitle": "ここにフック字幕",
+      "subtitleStyle": {
+        "color": "accent",
+        "weight": "bold",
+        "fadeIn": 0.2,
+        "scaleAnim": 1.03
+      }
+    },
+    {
+      "name": "問題提起",
+      "start": 3,
+      "end": 7,
+      "video": "public/videos/problem.mp4",
+      "speed": 1.2,
+      "subtitle": "ここに問題提起字幕"
+    },
+    {
+      "name": "解決策",
+      "start": 8,
+      "end": 20,
+      "video": "public/videos/solution.mp4",
+      "speed": 1.05,
+      "subtitle": "ここに解決策字幕"
+    },
+    {
+      "name": "補足",
+      "start": 21,
+      "end": 26,
+      "video": "public/videos/extra.mp4",
+      "speed": 1.15,
+      "subtitle": "ここに補足字幕"
+    },
+    {
+      "name": "CTA",
+      "start": 27,
+      "end": 30,
+      "video": "public/videos/cta.mp4",
+      "speed": 0.95,
+      "subtitle": "ここにCTA字幕"
+    }
+  ],
+  "narration": "public/audio/narration.mp3"
+}

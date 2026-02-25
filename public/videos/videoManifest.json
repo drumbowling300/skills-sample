@@ -1,0 +1,31 @@
+{
+  "daily": [
+    "videos/converted/daily/12225506_1080_1920_30fps.mp4",
+    "videos/converted/daily/14093035-uhd_2160_3840_30fps.mp4",
+    "videos/converted/daily/14867871_2160_3840_30fps.mp4",
+    "videos/converted/daily/3626978-uhd_2160_4096_25fps.mp4",
+    "videos/converted/daily/3626978_fixed.mp4",
+    "videos/converted/daily/5515577-hd_1080_1920_25fps.mp4",
+    "videos/converted/daily/6406028-hd_1080_1920_25fps.mp4",
+    "videos/converted/daily/6535260-uhd_2160_4096_30fps.mp4",
+    "videos/converted/daily/6825864-uhd_2160_3840_25fps.mp4",
+    "videos/converted/daily/7250826-uhd_2160_3840_25fps.mp4",
+    "videos/converted/daily/7791629-uhd_2160_4096_25fps.mp4",
+    "videos/converted/daily/8801873-uhd_2160_3840_24fps.mp4",
+    "videos/converted/daily/8802330-uhd_2160_3840_30fps.mp4",
+    "videos/converted/daily/9015591-uhd_2160_3840_24fps.mp4"
+  ],
+  "nature": [
+    "videos/converted/nature/12754652_2160_3840_30fps.mp4",
+    "videos/converted/nature/12881688_2160_3840_25fps.mp4",
+    "videos/converted/nature/14924813_2160_3840_30fps.mp4",
+    "videos/converted/nature/5644683-hd_1080_1920_25fps.mp4",
+    "videos/converted/nature/6912205-uhd_2160_3840_24fps.mp4"
+  ],
+  "work": [
+    "videos/converted/work/10374885-hd_1080_1920_24fps.mp4",
+    "videos/converted/work/5385950-uhd_2160_4096_30fps.mp4",
+    "videos/converted/work/8051643-uhd_2160_3840_24fps.mp4",
+    "videos/converted/work/8970796-hd_1080_1920_30fps.mp4"
+  ]
+}
