@@ -2,102 +2,164 @@
   {
     "type": "HOOK",
     "start": 0,
-    "end": 2.7,
+    "end": 2.58,
     "clauses": [
       {
-        "text": "実はこれ、知らないだけで少し持っていないかも",
+        "text": "実はこれ知らないだけで 少しもったいないかも",
+        "lines": [
+          "実はこれ知らないだけで",
+          "少しもったいないかも"
+        ],
         "start": 0,
-        "end": 2.7
+        "end": 2.58,
+        "highlightWords": [
+          "実は",
+          "知らない"
+        ]
       }
     ]
   },
   {
     "type": "PROBLEM",
-    "start": 2.7,
-    "end": 7.2,
+    "start": 2.84,
+    "end": 6.86,
     "clauses": [
       {
-        "text": "この3つのアプリ、入れていないだけで",
-        "start": 2.7,
-        "end": 4.8
+        "text": "この3つのアプリ",
+        "start": 2.84,
+        "end": 3.815,
+        "highlightWords": []
       },
       {
-        "text": "つき5000円以上下が出ることもあります",
-        "start": 4.8,
-        "end": 7.2
+        "text": "入れていないだけで",
+        "start": 3.815,
+        "end": 4.911,
+        "highlightWords": []
+      },
+      {
+        "text": "月5千円以上 差が出ることもあり",
+        "lines": [
+          "月5千円以上",
+          "差が出ることもあり"
+        ],
+        "start": 4.911,
+        "end": 6.86,
+        "highlightWords": []
       }
     ]
   },
   {
     "type": "AGITATE",
-    "start": 7.2,
-    "end": 11.9,
+    "start": 7.42,
+    "end": 11.68,
     "clauses": [
       {
-        "text": "毎日なんとなくSNSを30分見ているなら",
-        "start": 7.2,
-        "end": 10
+        "text": "毎日なんとなく SNSを30分見ているなら",
+        "lines": [
+          "毎日なんとなく",
+          "SNSを30分見ているなら"
+        ],
+        "start": 7.42,
+        "end": 9.774,
+        "highlightWords": []
       },
       {
-        "text": "その時間そのままにしていませんか",
-        "start": 10,
-        "end": 11.9
+        "text": "その時間 そのままにしていませんか",
+        "lines": [
+          "その時間",
+          "そのままにしていませんか"
+        ],
+        "start": 9.774,
+        "end": 11.68,
+        "highlightWords": []
       }
     ]
   },
   {
     "type": "SOLUTION",
-    "start": 11.9,
-    "end": 17.5,
+    "start": 12.040000000000001,
+    "end": 14.18,
     "clauses": [
       {
-        "text": "そのうち5分をこのアプリに変えるだけ",
-        "start": 11.9,
-        "end": 14.5
+        "text": "そのうち5分を",
+        "start": 12.04,
+        "end": 12.872,
+        "highlightWords": []
       },
       {
-        "text": "実際にままともは初めて一週間で数千円",
-        "start": 14.5,
-        "end": 17.5
+        "text": "このアプリに変えるだけ",
+        "start": 12.872,
+        "end": 14.18,
+        "highlightWords": []
       }
     ]
   },
   {
     "type": "BENEFIT",
-    "start": 17.5,
-    "end": 21.1,
+    "start": 14.68,
+    "end": 19.28,
     "clauses": [
       {
-        "text": "もっと早く知りたかったと言ってました",
-        "start": 17.5,
-        "end": 19.5
+        "text": "実際にママ友は 始めて1週間で数千円",
+        "lines": [
+          "実際にママ友は",
+          "始めて1週間で数千円"
+        ],
+        "start": 14.68,
+        "end": 16.918,
+        "highlightWords": []
       },
       {
-        "text": "特別なスキルは不要ですが",
-        "start": 19.5,
-        "end": 21.1
+        "text": "もっと早く知りたかった と言ってました",
+        "lines": [
+          "もっと早く知りたかった",
+          "と言ってました"
+        ],
+        "start": 16.918,
+        "end": 19.28,
+        "highlightWords": []
       }
     ]
   },
   {
     "type": "CTA",
-    "start": 21.1,
-    "end": 27.1,
+    "start": 19.68,
+    "end": 26.86,
     "clauses": [
       {
-        "text": "最初の設定だけちょっとコツがあります",
-        "start": 21.1,
-        "end": 23.2
+        "text": "特別なスキルは不要ですが",
+        "start": 19.68,
+        "end": 21.077,
+        "highlightWords": []
       },
       {
-        "text": "やり方をまとめたのでこの投稿を保存して",
-        "start": 23.2,
-        "end": 25.7
+        "text": "最初の設定だけ",
+        "start": 21.077,
+        "end": 21.892,
+        "highlightWords": []
       },
       {
-        "text": "キャプションをチェックしてね",
-        "start": 25.7,
-        "end": 27.1
+        "text": "ちょっとコツがあり",
+        "start": 21.892,
+        "end": 22.94,
+        "highlightWords": []
+      },
+      {
+        "text": "やり方をまとめたので",
+        "start": 23.4,
+        "end": 24.418,
+        "highlightWords": []
+      },
+      {
+        "text": "この投稿を保存して キャプションをチェックしてね",
+        "lines": [
+          "この投稿を保存して",
+          "キャプションをチェックしてね"
+        ],
+        "start": 24.418,
+        "end": 26.86,
+        "highlightWords": [],
+        "ctaKeyword": "保存"
       }
     ]
   }

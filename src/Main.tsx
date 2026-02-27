@@ -1,25 +1,43 @@
 import React from "react";
+import { AbsoluteFill, Sequence, useVideoConfig } from "remotion";
+import { generateScriptFromAudio } from "../scripts/bk_generateScriptFromAudio";
+import { SubtitleLayer } from "./components/SubtitleLayer";
+import { Clause } from "./types";
 
-export type VideoItem = {
-  src: string;
-  duration: number;
-};
+const Main: React.FC = () => {
+  const { fps } = useVideoConfig();
 
-export type MainProps = {
-  manifest: VideoItem[];
-};
+  // 🔥 テスト用ダミーデータ
+  const dummySegments = [
+    { start: 0, end: 3, text: "収入を増やす方法です" },
+    { start: 3, end: 6, text: "副業で稼ぐ人が増えています" },
+    { start: 6, end: 9, text: "今すぐ始めるべきです" },
+  ];
 
-const Main: React.FC<MainProps> = ({ manifest }) => {
+  const script: Clause[] =
+    generateScriptFromAudio(dummySegments);
+
+  console.log("SCRIPT:", script);
+
   return (
-    <div style={{ width: "100%", height: "100%", backgroundColor: "#000" }}>
-      {manifest.map((video, index) => (
-        <div key={index} style={{ marginBottom: 10, color: "#fff" }}>
-          <p>Video {index + 1}</p>
-          <p>Src: {video.src}</p>
-          <p>Duration: {video.duration} frames</p>
-        </div>
-      ))}
-    </div>
+    <AbsoluteFill style={{ backgroundColor: "#000" }}>
+      {script.map((clause, index) => {
+        const startFrame = Math.floor(clause.start * fps);
+        const durationInFrames = Math.floor(
+          (clause.end - clause.start) * fps
+        );
+
+        return (
+          <Sequence
+            key={index}
+            from={startFrame}
+            durationInFrames={durationInFrames}
+          >
+            <SubtitleLayer clause={clause} />
+          </Sequence>
+        );
+      })}
+    </AbsoluteFill>
   );
 };
 

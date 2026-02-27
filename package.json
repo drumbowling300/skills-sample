@@ -8,7 +8,7 @@
     "build": "remotion build",
     "render": "remotion render src/index.ts ReelComposition out.mp4",
     "process:videos": "node scripts/autoProcessVideos.js",
-    "generate:script": "node scripts/generateScriptFromAudio.js"
+    "generate:script": "ts-node scripts/generateScriptFromAudio.ts"
   },
   "dependencies": {
     "@remotion/media-utils": "^4.0.0",
